@@ -14,7 +14,7 @@ const AppDataSource = new DataSource({
   password,
   database,
   entities: [User, Budget, Expenses],
-  synchronize: false,
+  synchronize: true,
   logging: true
 })
 
